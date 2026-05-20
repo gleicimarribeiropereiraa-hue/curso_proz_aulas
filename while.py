@@ -11,29 +11,47 @@ cont= 0
 while cont <=100:
     cont = cont + 1
     print(f"Estamos no {cont}")
-    '''
-'''2
+'''
+'''#2
 cont= 0 
 N:int = int(input("Digite o valor de N: "))
 
 while cont <=N:
-    cont = cont + 1
-    print(f"Estamos no {cont}")'''
     
+    print(f"Estamos no {cont}")
+    cont = cont + 1
+    '''
 
-'''3
-valores par 
+'''#3 valores par 
 cont= 0
 
 while cont <=100:
-    cont = cont + 2
-    print(f"{cont}")
+
+     if cont % 2 ==0
+        
+        print(f"{cont}")
+        cont = cont + 2
+     
 '''
 
-'''For 4'''
+#For 4
+numero= 1
+contador=0
+'''for i in range(1, 11):
 
-numero= 5
-
-for i in range(1, 11):
-    print(f"{numero} x {i} = {numero * i}")
+    print(f"{numero} x {i} = {numero * i}")'''
     
+'''while contador <=10:
+    tabuada:int = numero * contador
+    print(f"{numero} X {contador} = {tabuada}")
+    contador =contador+1
+    '''
+
+while numero < 10:
+    contador=0
+    while contador <=10:
+        print(f"Tabuada do {numero}")
+        tabuada:int = numero * contador
+        print(f"{numero} X {contador} = {tabuada}\n ")
+        contador =contador+1
+    numero= numero+1
