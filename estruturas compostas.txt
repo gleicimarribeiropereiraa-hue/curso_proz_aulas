@@ -1,0 +1,14 @@
+Variáveis simples
+
+num :int = 5
+
+Variáveis compostas
+
+Vetor--->[7,5,4,3,20]===>conjunto de valores
+
+lista_numero  int ==>[1,2,3,4,5,6,7,8]==>pegar o elemento pela posição "ARRAY =Vetor"
+
+lista_numero[2]
+lista string = ['a','b','c','a','x','i']
+
+lista_cidade= ['Betim','Sarzedo','contagem','Rn','Belo Horizonte']
