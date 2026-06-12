@@ -58,7 +58,7 @@ Modelagem do banco de Dados->identificar tabelas
 Sql ->linguagem de consulta estruturada
 
 Modelo conceitual
-Ideia em alto níveldos elementos que vão compor o banco
+Ideia em alto níveldos elementos que vão compor o banco,identificar as entidades
 
 
 uma oficina mecânica precisa  de um sistema par gestão,eles querem guardar dados dos clientes,nome telefone e cpf  e também precisam de dados dos carros  como placa,modelo e ano,alem do serviço realizado como valor e data que foi realizada
@@ -80,3 +80,7 @@ serviço
 #tipo de serviço
 #valor
 #data
+
+1 --- 1
+1 --- N(muitos)
+N --- N
