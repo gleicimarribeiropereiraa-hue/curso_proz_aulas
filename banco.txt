@@ -1,0 +1,82 @@
+Banco de dados  11/06  a 01/07
+
+paulomariano@prozeducacao.com.br
+
+
+Entrada de Dado -> Processamento -> Saída de dados
+                        |
+                        Armazenamento
+
+        Dado->valor 
+            |
+        A depender do contexto pode ser  agregado  para formar informação
+                   |
+                
+    Banco de dados é um sistema que armazena e organiza informações,semelhante a uma biblioteca,um banco de dados deve ser estruturado,é usado pra gerenciar as informações de forma organizada.
+
+    Garantir integridade dos dados
+    Garantir a Recuperação
+    Organização de informações complexas  relação 1:1 1:n
+
+    SGBD's
+
+    MySQL
+    Microsoft SQL Server
+    Oracle Database
+
+    Tabelas -> relacionamentos
+
+    importante nomear o local onde serão armazenados os dados  na tabela
+
+    schema -> estrutura que define a orrganização
+    tabelas -> organiza os dados
+    colunas-> define o tipo de dasdos 
+    linhas-> registros  correspondentes a cada elemento
+
+    CREATE ->comando para criar a tabela
+    READ -> comando par ler os dados 
+    UPDATE ->comando para atualizar os dados
+    DELETE-> comando para exclusão de dados
+
+
+    CREATE Table "Clientes"
+    id->unic key
+    nome-> varchar
+    idade-> int
+    nota-> float
+
+
+    Planejar
+        |
+    Como armazenar?
+        O que?
+        |
+     Escopo
+Modelagem do banco de Dados->identificar tabelas
+                                campos
+                                relacionamentos
+Sql ->linguagem de consulta estruturada
+
+Modelo conceitual
+Ideia em alto níveldos elementos que vão compor o banco
+
+
+uma oficina mecânica precisa  de um sistema par gestão,eles querem guardar dados dos clientes,nome telefone e cpf  e também precisam de dados dos carros  como placa,modelo e ano,alem do serviço realizado como valor e data que foi realizada
+
+Entidade Clientes
+
+#nome
+#telefone
+#cpf
+
+carros
+
+#placa
+#modelo
+#ano
+
+serviço
+
+#tipo de serviço
+#valor
+#data
