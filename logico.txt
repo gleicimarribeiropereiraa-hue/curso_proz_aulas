@@ -1,0 +1,53 @@
+Modelo  logico
+
+Pessoa--->*cpf (Pk(Primary Key))
+      ---> nome
+      --->telefone
+
+carro--->*placa
+     ---> modelo
+     --->anos
+     --->cpf_dono  
+     foreign key(FK(chave estrangeira))
+
+     Projeto lógico trata do detalhamento do modelo conceitual
+     Quando existe um relação de  N---N  surge uma terceira entidade que recebe as chaves primarias das demais tabelas.
+
+     Projeto físico código para criar o desenho da tabela
+Pk-->obrigatório e não se repete
+varchar--->tipo textual no BD ->valores obrigatório Not NULL
+text ---> guardar textos grandes
+char--->representar caracteres pequenos 1 caracter
+Unique--->identifica que o campoé unico e não pode ser repetido
+Auto increment -->gerenciado automáticamente pelo banco
+float ->1.0000000
+Double-> 1.000000000000000
+Boolean -> True or False
+
+    P essoa
+    | | | |
+    | | | id 
+    | | cpf
+    | |
+    | nome
+    telefone
+
+     _ _ _ _ _ _ _ _ _ _ _ _ _ 
+    |         Pessoa          |
+    |_ _ _ _ _ _ _ _ _ _ _ _ _|
+    |                         |
+    |  id:int pk autoincrement|
+    |    nome:varchar(255) NN |
+    |     cpf: varchar(255) NN|
+    |   telefone: varchar(255)|
+    |_ _ _ _ _ _ _ _ _ _ _ _ _|
+     _ _ _ _ _ _ _ _ _ _ _ _ _ 
+    |        Carro            |
+    |_ _ _ _ _ _ _ _ _ _ _ _ _|
+    |                         |
+    |  id:int pk autoincrement|
+    |   placa:varchar(255) NN |
+    |   Ano: varchar(255) NN  |
+    |   Modelo: varchar(255)  |
+    |cpf_dono:int FK Pessoa(id)
+    |_ _ _ _ _ _ _ _ _ _ _ _ _|

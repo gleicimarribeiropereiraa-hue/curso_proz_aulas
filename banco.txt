@@ -84,3 +84,15 @@ serviço
 1 --- 1
 1 --- N(muitos)
 N --- N
+
+Banco de Dados Relacional ->tem como caracterísca o trabalho com Tabelas
+
+id |nome   | cpf  |
+0  |Paul   | *1214|
+1  | Maria |      |
+
+  Representação
+Aluno ->características (nome,idade,matricula,cpf)
+Pessoa ->características
+carros ->características(Placa,cor,modelo,chassi,ano,marca)
+Gato ->características
