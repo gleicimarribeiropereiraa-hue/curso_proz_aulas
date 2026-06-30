@@ -1,0 +1,30 @@
+Busca de dados
+
+Usamos o select para buscar  dados armazenados  no banco de dados
+
+Busca total-> Select* From Table
+busca todos os dados de toas as colunas da tabela
+
+Busca por determinadas colunas
+
+Select nome_coluna,nome_coluna from Table
+retorna todos os dados das colunas descritas
+
+Busca com filtro (Where)
+Select * from Table Where
+tipos de filtros
+>=
+<=
+<          dados numericos
+>
+!=
+=
+
+Like '% ' dados textuais
+
+Select * from table  where coluna >15
+Busca valores maiores que 15
+
+Select * from table  where coluna Like 'a%',
+Busca dados com valores que começam com a letra a
+
